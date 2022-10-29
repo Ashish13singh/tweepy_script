@@ -1,3 +1,4 @@
+from env import CONSUMER_KEY,CONSUMER_SECRET_KEY,ACCESS_KEY,ACCESS_SECRET_KEY
 import json
 import time
 import unicodedata
@@ -5,10 +6,10 @@ import unicodedata
 import tweepy
 
 auth = tweepy.OAuth1UserHandler(
-    "CAEKNwKWoXI4nsOnyq4nJDC9e",
-    "2ahuvdTDFAR9d7hku66YYhOONWvyMfD72OHlD1I5n5L0tlDIWG",
-    "1296746024237555713-ND1AkemLqW5KGvXhY4OIJWkcdl8h9y",
-    "n0Tjneth7aELYA8rSRIThgagSXwJW2kVihp13kPmtNO2W",
+    CONSUMER_KEY,
+    CONSUMER_SECRET_KEY,
+    ACCESS_KEY,
+    ACCESS_SECRET_KEY,
 )
 
 # calling an api
