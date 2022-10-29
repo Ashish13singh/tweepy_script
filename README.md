@@ -8,4 +8,4 @@ Displays updated feed from twitter
 Create a venv
 > pip install -r requirements.txt
 > 
-> python task.py 
+> python user_timeline_app.py 
